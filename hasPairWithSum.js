@@ -22,3 +22,17 @@ function hasPairWithSum(arr, target) {
 
   return false; // no pair found
 }
+
+
+function sum(a, b) {
+  return a + b;
+}
+
+console.log(sum(3, 4)); // 7
+
+
+function reverseString(str) {
+  return str.split('').reverse().join('');
+}
+
+console.log(reverseString("hello")); // "olleh"
